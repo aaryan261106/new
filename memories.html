@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+    font-family: 'a';
+    src: url(./src/font/choco-cooky/Chococooky.ttf);
+}
+        body {
+            ba
+            background-color: #fadcec;
+            font-family : 'a', sans-serif;
+        }
+        .card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9,.card10,.card11,.card12 {
+            /* background-color: #fff; */
+            /* display: flex; */
+            /* width: 550px; */
+            /* border-radius: 10px; */
+            /* padding: 20px; */
+            margin: 10px;
+            border-bottom: 2px solid #ccc;
+            /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .grid{
+            display: auto;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 50px;
+        }
+        img{
+            position: flex;
+        }
+        .card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9,.card10,.card11,.card12  h3 {
+            display: flex;
+            justify-content:space-between ;
+        }
+        .page{
+            position: absolute;
+            z-index: 100;
+        }
+        #bg-video {
+    position: fixed;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;
+    /* object-fit: cover; */
+    /* object-position: center; */
+    background-repeat: repeat-y;
+    /* background-size: cover; */
+  }
+
+    </style>
+</head>
+<body>
+    <video autoplay muted loop id="bg-video">
+          <source src="./src/IMG/bg.mp4" type="video/mp4"></video>
+        
+    <div class="page">
+    <H1> This is the memories page
+    The most beautiful memories are the ones we create together.</H1>
+    <h3>What do you think are these just some random memories , ofcource not i know that how specail it has being for you and me to create these memories together.
+    I hope you will love these memories as much as i do.Actully these are the memories which i will never forget in my life and i hope you will also not forget these memories. This not the ending but the beginning of our love story. I hope you will love these memories as much as i do.Actully these are the memories which i will never forget in my life and i . So now this is the time i can say you many things that you havent expected from me but them to i will let it flow just go ahead you would love it , I hope so .
+    </h3>
+    <div class="grid">
+        <div class="card1">
+            <img src="./src/IMG/day1.jpg" height="300px" alt="">
+        <h3>Memory 1</h3>
+        <p>Our first date was magical. this may not be a Date but that day was the most special for me . <br> The magic happend when you entered the classroom . I was pretty amazed the way you walk and had the confidence . <br>I felt defeated when you were comforting me to solve maths problems .</p>
+    </div>
+    <div class="card2">
+        <img src="./src/IMG/bdimg.jpg" height="300px" alt="">
+        <h3>Memory 2</h3>
+        <p>Our first trip together was unforgettable. I can bet that non of us going to forget thid day the <br> lie about  Tanishka's birthday.</p>
+    </div>
+    
+    <div class="card3">
+        <img src="./src/IMG/fun1.jpg" height="300px" alt="">
+        <h3>Memory 3</h3>
+        <p>Every moment with you is a treasure. The fun is never missing when i am talking to you i feel  i have hte best human anyone can ever meet i feeling <br> to say Goddess but i am not as i know you are way better that other but it is what it is .</p>
+    </div>
+    <div class="card4">
+        <img src="./src/IMG/confesion.jpg" width="300px" alt="">
+        <h3>Memory 4</h3>
+        <p>Our first dream come true.This was the day i was shocked to be very honest <br>you confessed me your feeling if you remember i didnt even gave you a reply after that i just had a question Y today ?</p>
+    </div>
+    <div class="card5">
+        <img src="./src/IMG/cryfilter.jpg" height="300px" alt="">
+        <h3>Memory 5</h3>
+        <p>Every day with you is a new fun.This is one of those days we had a silly fight and we are back to normal the next day thats <br> the main point we dont things to overshadow our love for eachother.</p>
+    </div>
+    <div class="card6">
+        <img src="./src/IMG/happyhappy.jpg" height="300px" alt="">
+        <h3>Memory 6</h3>
+        <p>Our love story is my favorite.There is nothing like fake dramas,jealousy,trust issue. This is the most weired part to say to anyone that we never fought for more <br>than 10hr thats the maximum amount of time we took to sort our worst misunderstanding   </p>
+    </div>
+    <div class="card7">
+        <img src="./src/IMG/sticker.jpg" height="300px" alt="">
+        <h3>Memory 7</h3>
+                <p>Our first kiss was unforgettable. That day we both we were experiecing rollercoster of feeling when your mumma was calling you, you panicied and how <br> couls you expect me to make you feel better at that time i belive you learn that day that you shoould face some fears with out having a second thought.</p>
+    </div>
+    <div class="card8">
+        <video  muted loop autoplay src="./src/IMG/firstvid.mp4" height="300px"  alt=""><br></video>
+        <h3>Memory 8</h3>
+        <p>Every moment with you is a gift.i know i always make fun out of you i dont have any filters i am always in fun mood .</p>
+    </div>
+    <div class="card9">
+        <img src="./src/IMG/openeyes.jpg" height="300px" alt="">
+        <h3>Memory 9</h3>
+        <p>Every day with you is a blessing when these eyes are always looking after me so pretty I haventsaid you I LOVE YOU in this website but <br>i really do .</p>
+    </div>
+    <div class="card10">
+        <video muted loop autoplay src="./src/IMG/happyswig.mp4" height="300px" alt=""></video>
+        <h3>Memory 10</h3>
+        <p>Every moment with you is a treasure. I know i am not the best person to be with but i am the one who is always there for you and i will be there for you always.</p>
+    </div>
+    <div class="card11">
+        <video loop muted autoplay src="./src/IMG/Snapchat-707563464.mp4" height="300px" alt=""></video>
+        <!-- <h3>Memory 11</h3> -->
+        </div>
+    <div class="card12">
+        <video loop muted autoplay src="./src/IMG/Snapchat-1560031356.mp4" height="300px" alt="">
+</div>    
+   </div>
+</body>
+</html>
